@@ -74,7 +74,7 @@
                         <p  class="author lead">Album by <span id="album2">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button2" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -85,7 +85,7 @@
                         <p  class="author lead">Album by <span id="album3">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button3" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -96,7 +96,7 @@
                         <p  class="author lead">Album by <span id="album4">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button4" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -107,7 +107,7 @@
                         <p  class="author lead">Album by <span id="album5">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button5" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -118,7 +118,7 @@
                         <p  class="author lead">Album by <span id="album6">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button6" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -129,7 +129,7 @@
                         <p  class="author lead">Album by <span id="album7">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button7" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -140,7 +140,7 @@
                         <p  class="author lead">Album by <span id="album8">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button8" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -151,7 +151,7 @@
                         <p  class="author lead">Album by <span id="album9">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button9" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -162,7 +162,7 @@
                         <p  class="author lead">Album by <span id="album10">Washed Out</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
-                        <button class="btn btn-success">Get Lyrics</button>
+                        <button id="button10" class="btn btn-success">Get Lyrics</button>
                     </div>
                 </div>
                 <!-- ./ single result -->
@@ -373,6 +373,114 @@
            
 
         })
+        document.getElementById("button2").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title2","artist2");
+
+
+
+        })
+        document.getElementById("button3").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title3","artist3");
+
+
+
+        })
+        document.getElementById("button4").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title4","artist4");
+
+
+
+        })
+        document.getElementById("button5").addEventListener('click',function(){
+
+            document.getElementById("display").style.display = "none" 
+            document.getElementById("songLyricsDetail").style.display = "block";          
+
+            document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+            getLyrics("title5","artist5");
+
+
+
+            })
+            document.getElementById("button6").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title6","artist6");
+
+
+
+        })
+        document.getElementById("button7").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title7","artist7");
+
+
+
+        })
+        document.getElementById("button8").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title8","artist8");
+
+
+
+        })
+        document.getElementById("button9").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title9","artist9");
+
+
+
+        })
+        document.getElementById("button10").addEventListener('click',function(){
+
+        document.getElementById("display").style.display = "none" 
+        document.getElementById("songLyricsDetail").style.display = "block";          
+
+        document.getElementById("songTitle").innerText = document.getElementById("title").innerText;
+
+        getLyrics("title10","artist10");
+
+
+
+        })
 
         function getLyrics(id,id1){
             let title = document.getElementById(id).innerText;
@@ -389,6 +497,7 @@
         document.getElementById("backBtn").addEventListener('click', function (){
             document.getElementById("songLyricsDetail").style.display = "none";
         document.getElementById("display").style.display = "none"
+        document.getElementById("search").value = "";
 
         })
 
